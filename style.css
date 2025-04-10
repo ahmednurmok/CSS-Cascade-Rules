@@ -1,0 +1,28 @@
+/* Don't change the existing CSS. */
+
+.box {
+  background-color: blue;
+  padding: 10px;
+}
+
+p {
+  color: yellow;
+  margin: 0;
+  padding: 0;
+}
+
+.white-text {
+  color: white;
+}
+
+#outer-box {
+  background-color: purple;
+}
+
+
+
+.inner-box {
+  background-color: red;
+}
+/* All three 'divs' share the id 'box' so once the padding is already added for 'box' there is no need for extra padding 
+.inner box and .box are class selectors for the same div, meaning that the '.innerbox' must be below .box to get the red outline (follows the CSS rule of position).*/ 
